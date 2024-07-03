@@ -1,0 +1,1 @@
+savedcmd_/root/netfilter-tcp-payload/netfilter-tcp-payload.mod := printf '%s\n'   netfilter-tcp-payload.o | awk '!x[$$0]++ { print("/root/netfilter-tcp-payload/"$$0) }' > /root/netfilter-tcp-payload/netfilter-tcp-payload.mod

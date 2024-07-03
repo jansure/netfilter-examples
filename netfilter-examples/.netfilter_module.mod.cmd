@@ -1,0 +1,1 @@
+savedcmd_/root/netfilter-examples/netfilter_module.mod := printf '%s\n'   netfilter_module.o | awk '!x[$$0]++ { print("/root/netfilter-examples/"$$0) }' > /root/netfilter-examples/netfilter_module.mod

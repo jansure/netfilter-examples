@@ -1,0 +1,1 @@
+savedcmd_/root/netfilter-forward/netfilter-forward.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /root/netfilter-forward/netfilter-forward.ko /root/netfilter-forward/netfilter-forward.o /root/netfilter-forward/netfilter-forward.mod.o
